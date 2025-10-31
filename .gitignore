@@ -1,0 +1,160 @@
+# ================================
+# ОС и системные файлы
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ================================
+# IDE / Редакторы
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# Логи и временные файлы
+# ================================
+logs/
+*.log
+*.tmp
+*.bak
+*~
+.cache/
+parse_all.py
+
+# ================================
+# Зависимости и виртуальные окружения
+# ================================
+node_modules/
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ================================
+# Конфиги и секреты
+# ================================
+.env
+.env.local
+.env.*.local
+secrets/
+*.key
+*.pem
+config
+
+
+# ================================
+# ML: Модели и веса
+# ================================
+*.h5
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+*.pb
+*.tflite
+*.joblib
+*.pkl
+*.safetensors
+checkpoints/
+/models/
+/weights/
+artifacts/
+
+# ================================
+# ML: Данные и датасеты
+# ================================
+*.csv
+*.parquet
+*.feather
+*.arrow
+*.npy
+*.npz
+*.mat
+*.hdf5
+*.h5
+
+# ================================
+# ML: Кэши и артефакты
+# ================================
+.cache/
+wandb/
+.mlflow/
+tensorboard/
+runs/
+lightning_logs/
+*.sqlite
+*.db
+
+# ================================
+# Сборка и артефакты
+# ================================
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ================================
+# Пакеты и архивы
+# ================================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.aab
+*.apk
+
+# ================================
+# Docker
+# ================================
+.dockerenv
+.dockerinit
+.docker/
+
+# ================================
+# Git
+# ================================
+.gitignore
+!.gitignore
+
+# ================================
+# Jupyter
+# ================================
+.ipynb_checkpoints/
+/notebooks/
+
+# ================================
+# DVC (Data Version Control)
+# ================================
+.dvc/cache/
+.dvc/tmp/
+
+
+web/backend/reportable-app/data
